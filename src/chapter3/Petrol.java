@@ -18,38 +18,47 @@ public class Petrol {
 	}
 
 	public void setLocation (String location){
+
 		this.location = location;
 	}
 
 	public String getLocation() {
+
 		return this.location;
 	}
 
 	public void setPetrolType (String petrolType){
+
 		this.petrolType = petrolType;
 	}
 
 	public String getPetrolType() {
+
 		return this.petrolType;
 	}
 
 	public void setQuantity (int quantity){
-			this.quantity = quantity;
+
+		this.quantity = quantity;
 	}
 
 	public int getQuantity (){
+
 		return this.quantity;
 	}
 
 	public void setPricePerLitre (double pricePerLitre){
-			this.pricePerLitre = pricePerLitre; 
+
+		this.pricePerLitre = pricePerLitre;
 	}
 
 	public double getPricePerLitre() {
+
 		return this.pricePerLitre;
 	}
 
 	public void setPercentageDiscount (double percentageDiscount){
+
 		this.percentageDiscount = percentageDiscount;
 	}
 
