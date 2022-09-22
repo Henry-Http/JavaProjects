@@ -1,14 +1,13 @@
 package chapter7;
 
 public class AddArrays {
-    public static void main(String[] args) {
-        int[] peoplesAge = {12, 32, 56, 78, 9, 59, 71};
-        int totalAge = 0;
-
-        for (int counter = 0; counter < peoplesAge.length; counter++) {
-            totalAge += peoplesAge[counter];
-        }
-        System.out.println(totalAge);
+//        int[] peoplesAge = {12, 32, 56, 78, 9, 59, 71};
+//        int totalAge = 0;
+//
+//        for (int counter = 0; counter < peoplesAge.length; counter++) {
+//            totalAge += peoplesAge[counter];
+//        }
+//        System.out.println(totalAge);
 /*  pseudocode
     create the array
     initialize a total variable
@@ -17,5 +16,12 @@ public class AddArrays {
 
 * */
 
+
+    public int addPeoplesAge(int[]peoplesAge) {
+        int totalAge = 0;
+        for (int counter = 0; counter < peoplesAge.length; counter++) {
+            totalAge += peoplesAge[counter];
+        }
+        return totalAge;
     }
 }
