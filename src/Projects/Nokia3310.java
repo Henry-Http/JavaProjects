@@ -1,13 +1,10 @@
-package tdd;
+package Projects;
 
 import java.util.Scanner;
 
 public class Nokia3310 {
 
-    public static void main(String[] args) {
-        Nokia3310 nokia = new Nokia3310();
-        nokia.runMenu();
-    }
+
 
     Scanner input = new Scanner(System.in);
 
@@ -96,14 +93,6 @@ public class Nokia3310 {
             System.out.println("Goodbye and go buy better phone!!");
             exit = true;
         }
-        /**if (options < 0 || options> 5) {
-            System.out.println("Enter a valid Option: ");
-            count++;
-           }
-        if (count == 4) {
-            System.out.println("Goodbye and go buy better phone");
-            break;
-        }**/
     }
     }
 

@@ -1,4 +1,4 @@
-package tdd;
+package Projects;
 
 public class Practice {
     public static void main(String[] args) {
