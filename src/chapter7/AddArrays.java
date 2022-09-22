@@ -9,13 +9,11 @@ public class AddArrays {
             totalAge += peoplesAge[counter];
         }
         System.out.println(totalAge);
-/* pseudocode
+/*  pseudocode
     create the array
     initialize a total variable
-    use a for loop,
-    declare counter to zero
-    counter is grater than the arrays length
-    increment counter by 1
+    use a for loop from index 0 to the length of the array
+    declare the total variable as [total plus the array]  perform total = total + array[counter].
 
 * */
 
